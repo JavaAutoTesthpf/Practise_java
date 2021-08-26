@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "suitename">
+    <test name ="runAll">
+        <classes>
+            <class name ="com.practice.code.groups.GroupsClass1"/>
+            <class name ="com.practice.code.groups.GroupsClass2"/>
+            <class name ="com.practice.code.groups.GroupsClass3"/>
+        </classes>
+    </test>
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="server"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name ="com.practice.code.groups.GroupOnMethod"/>
+        </classes>
+
+    </test>
+</suite>
