@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaTestPractice" />
+        <module name="JavaTestPractice2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaTestPractice" target="1.5" />
+      <module name="JavaTestPractice2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

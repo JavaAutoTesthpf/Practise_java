@@ -1,0 +1,28 @@
+[
+  {
+    "description" : "重定向到百度",
+    "request": {
+      "uri" : "/get/redirect"
+    },
+    "redirectTo" : "http://www.baidu.com"
+  },
+  {
+    "description" : "重定向到自己的网页上",
+    "request": {
+      "uri" : "/get/redirect/to"
+    },
+    "redirectTo" : "/get/redirect/newPage"
+  },
+  {
+    "description" : "被重定向的页面",
+    "request": {
+      "uri" : "/get/redirect/newPage"
+    },
+    "response" : {
+      "text": "重定向成功了",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]

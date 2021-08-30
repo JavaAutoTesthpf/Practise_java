@@ -1,0 +1,27 @@
+[
+  {
+    "description" : "模拟一个post请求",
+    "request": {
+      "uri" : "/postdemo",
+      "method" : "post"
+    },
+    "response" : {
+      "text" : "this is a post demo"
+    }
+  },
+  {
+    "description" : "模拟一个带参数的post请求",
+    "request": {
+      "uri" : "/postwithparam",
+      "method" : "post",
+      "forms": {
+        "name": "huhansan",
+        "gender": "male"
+      }
+    },
+    "response" : {
+      "text" : "this is a post with parameter,我胡汉三带着参数来了",
+      "headers": {"Content-Type":"text/html;charset=gbk"}
+    }
+  }
+]

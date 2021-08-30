@@ -1,0 +1,27 @@
+[
+  {
+    "description" : "模拟一个没有参数的get请求",
+    "request": {
+      "uri" : "/getdemo",
+      "method" : "get"
+    },
+    "response" : {
+      "text" : "this is a no-argument get demo"
+    }
+  },
+  {
+    "description" : "模拟一个带有参数的get请求",
+    "request": {
+      "uri" : "/getWithParam",
+      "method" : "get",
+      "queries": {
+        "name" : "huhansan",
+        "age" : "16"
+      }
+    },
+    "response" : {
+      "text" : "this is a get demo with argument,我胡汉三又回来啦",
+      "headers": {"Content-Type":"text/html;charset=gbk"}
+    }
+  }
+]

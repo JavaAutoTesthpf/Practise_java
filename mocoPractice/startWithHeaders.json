@@ -1,0 +1,22 @@
+[
+  {
+    "description" : "这是一个带headers信息的post请求",
+    "request": {
+      "uri" : "/post/headers",
+      "method": "post",
+      "headers":{
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "felix",
+        "age": "11"
+      }
+    },
+    "response" : {
+      "text" : "这是一个需要携带headers信息才能访问的post请求!",
+      "headers": {
+        "Content-Type": "test/html;charset=gbk"
+      }
+    }
+  }
+]
