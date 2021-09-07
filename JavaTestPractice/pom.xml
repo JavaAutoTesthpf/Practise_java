@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>JavaTestPractice2</module>
+        <module>httpClientPractice</module>
     </modules>
     <dependencies>
         <dependency>
