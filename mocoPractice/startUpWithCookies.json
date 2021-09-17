@@ -46,11 +46,11 @@
     "response" : {
       "status": 200,
       "json" : {
-        "felixhan": "success",
-        "status": 200
+        "felixhan": "成功",
+        "status": "200"
       },
       "headers": {
-        "Content-Type": "text/html;charset=gbk"
+        "Content-Type": "text/html;charset=utf-8"
       }
     }
   }
